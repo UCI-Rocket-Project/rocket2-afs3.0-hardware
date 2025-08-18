@@ -4736,7 +4736,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/MEMSIC%20PDFs/MMC5983MA_RevA_4-3-19.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4875,17 +4875,6 @@
 				)
 			)
 			(symbol "MMC5983MA_0_0"
-				(rectangle
-					(start -15.24 -15.24)
-					(end 15.24 15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(pin input line
 					(at -20.32 7.62 0)
 					(length 5.08)
@@ -5172,6 +5161,19 @@
 								(size 1.016 1.016)
 							)
 						)
+					)
+				)
+			)
+			(symbol "MMC5983MA_1_0"
+				(rectangle
+					(start -15.24 15.24)
+					(end 15.24 -15.24)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -12308,16 +12310,6 @@
 			(type default)
 		)
 		(uuid "c1ab6045-884a-42a2-983a-7d1b1fe01609")
-	)
-	(wire
-		(pts
-			(xy 287.02 123.19) (xy 283.21 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c23bf85b-110d-48fb-b5b3-9e792d2c5520")
 	)
 	(wire
 		(pts
@@ -20207,18 +20199,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5c38a57e-c61b-40a8-ba62-ee8c80781154")
 		(property "Reference" "C24"
-			(at 242.57 120.65 90)
+			(at 242.824 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10nF"
-			(at 242.57 123.19 90)
+		(property "Value" "10uF"
+			(at 242.824 122.428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25168,7 +25159,7 @@
 	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
-		(at 283.21 123.19 90)
+		(at 287.02 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25177,7 +25168,7 @@
 		(fields_autoplaced yes)
 		(uuid "afddcf60-2b1b-4fa6-a9a6-4cd8edc1036d")
 		(property "Reference" "#PWR095"
-			(at 289.56 123.19 0)
+			(at 293.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25186,7 +25177,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 287.02 123.1899 90)
+			(at 290.83 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25195,7 +25186,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 123.19 0)
+			(at 287.02 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25204,7 +25195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 123.19 0)
+			(at 287.02 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25213,7 +25204,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 283.21 123.19 0)
+			(at 287.02 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
