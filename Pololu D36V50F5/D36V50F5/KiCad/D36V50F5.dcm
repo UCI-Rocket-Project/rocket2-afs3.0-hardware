@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP D36V50F5
+D D36V50Fx Step-Down Voltage Regulator
+K
+F https://www.pololu.com/file/0J1732/d36v50fx-step-down-voltage-regulator-dimensions.pdf
+$ENDCMP
+#
+#End Doc Library
