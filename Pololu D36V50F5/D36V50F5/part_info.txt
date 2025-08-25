@@ -1,0 +1,9 @@
+Manufacturer=Pololu
+PartNumber=D36V50F5
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=15
+Version=1.2
+Released=2020-07-13 08:50:58
+Downloaded=2025-08-23 20:17:11
+3D=Y
