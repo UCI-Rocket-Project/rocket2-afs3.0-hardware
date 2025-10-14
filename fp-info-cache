@@ -1,4 +1,4 @@
-25618221706776229
+25621732801902001
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2666,6 +2666,13 @@ speaker CUI
 0
 2
 2
+Buzzer_CMT-7525S-SMT
+CUI_CMT-7525S-SMT
+
+
+0
+4
+4
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -67871,6 +67878,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MMC5983MA
+PQFN50P300X300X100-16N
+
+
+0
+16
+16
 MP1584EN
 SOIC8E_MPS
 
